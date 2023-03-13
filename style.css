@@ -1,0 +1,59 @@
+.profile-img{
+	display: inline;
+	height: 100px;
+	width: 100px;
+	position: relative;
+}
+.aboutme{
+	display: inline;
+	
+}
+.bio{
+	display: flex;
+}
+.social{
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	
+
+
+}
+.gmail{
+	display: inline;
+	height: 30px;
+	width: 30px;
+}
+.ins{
+	display: inline;
+	height: 30px;
+	width: 30px;
+}
+.fac{
+	display: inline;
+	height: 30px;
+	width: 30px;
+}
+.gridsss{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 20px 10 px 0 px 10px;
+	grid-gap: 80px;
+}
+.projects{
+	-webkit-box-shadow: 23px 0px 41px -1px rgba(0,0,0,1);
+-moz-box-shadow: 23px 0px 41px -1px rgba(0,0,0,1);
+box-shadow: 23px 0px 41px -1px rgba(0,0,0,1);
+border-radius: 43px 43px 43px 43px;
+-moz-border-radius: 43px 43px 43px 43px;
+-webkit-border-radius: 43px 43px 43px 43px;
+border: 0px solid #000000;
+
+}
+h3{
+	padding-left: 10px;
+}
+.projects,p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
